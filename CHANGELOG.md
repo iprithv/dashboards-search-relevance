@@ -21,6 +21,7 @@ Inspired from [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 - fix: scope search config to data source; require UBI index for COEC ([#923](https://github.com/opensearch-project/dashboards-search-relevance/pull/923))
 - Scope experiment result dashboards to the active workspace and data source ([#928](https://github.com/opensearch-project/dashboards-search-relevance/pull/928))
 - Merge the `single_search` route into `search` and read `dataSourceId` from the query parameter, so search configuration validation runs against the selected data source ([#930](https://github.com/opensearch-project/dashboards-search-relevance/issues/930))
+- Gate workbench on data source readiness and warn on data sources without the Search Relevance plugin ([#940](https://github.com/opensearch-project/dashboards-search-relevance/pull/940))
 
 ### Infrastructure
 
